@@ -1,0 +1,33 @@
+
+.container{
+    background-color: #084800;
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+  }
+
+.menu{
+    display:flex;
+    padding:1%;
+    position:relative;
+    flex-grow:1;
+    flex-basis:47%;
+    flex-direction: row;
+    width:max-content;
+    background-color:#084800;
+}
+
+
+
+.nav-bg{
+    background-color: #084800;
+    padding-left:3%;
+    padding-right:3%;
+}
+
+.inline-list{
+    margin-right:10px;
+    display:inline-flex;
+}
+
+
