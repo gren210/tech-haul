@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your eCommerce Store</title>
+    <title>Tech Haul</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -16,11 +16,11 @@
     <nav class="menu">
         <div class="nav-container">
             <div class="navs">
-                <img id="logo" src="images/logo.jpg" alt="Logo">
-                <a href="#">Home</a>
+                <a href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
+                <a href="community.html">Community</a>
                 <a href="product-list.html">Products</a>
                 <a href="leaderboard.html">Leaderboard</a>
-                <a href="#">About</a>
+                <a href="order-list.html">Orders</a>
             </div>
             <div class="navs">
                 <div class="nav-box">
@@ -28,8 +28,7 @@
                     <button class="search-button" type="submit">Search</button>
                 </div>
                 <a href="profile.html">Profile</a>
-                <a href="cart.html">Cart</a>
-                
+                <a href="cart.html"><img class="logo" src="images/shopping-cart.png"></a>
             </div>
     </nav>
 
@@ -38,7 +37,7 @@
             <img src="images/example_promo.jpg" alt="promo">
         </div>
         <h1 id="rec">Recommended for you</h1>
-        <article class="container">
+        <article class="container-featured">
             <div class="featured">
                 <img src="images/grey.jpg" alt="placeholder">
             </div>
@@ -49,56 +48,101 @@
                 <img src="images/grey.jpg" alt="placeholder">
             </div>
         </article>
-        <div class="container2">
+        <div class="container-categories">
             <div class="categories">
                 <article class="container2">
                     <div class="pc-category">
                     </div>
-                    <img class="pc-category" src="images/grey.jpg" alt="placeholder">
+                    <div class="pc-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h1 class="cat">PC Parts</h1>
+                    </div>
                     <div class="pc-category">
                     </div>
                 </article>
-                <h1 class="cat">PC Parts</h1>
                 <article class="container2">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>PC</h2>
+                    </div>
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>GPU</h2>
+                    </div>
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>CPU</h2>
+                    </div>
                 </article>
                 <article class="container2">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>RAM</h2>
+                    </div>
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>Motherboard</h2>
+                    </div>
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>Storage</h2>
+                    </div>
                 </article>
                 <article class="container2">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>PSU</h2>
+                    </div>
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>Case</h2>
+                    </div>
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>Others</h2>
+                    </div>
                 </article>
             </div>
             <div class="categories">
                 <article class="container2">
                     <div class="pc-category">
                     </div>
-                    <img class="pc-category" src="images/grey.jpg" alt="placeholder">
+                    <div class="pc-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h1 class="cat">Peripherals</h1>
+                    </div>
                     <div class="pc-category">
                     </div>
                 </article>
-                <h1 class="cat">Peripherals</h1>
                 <article class="container2">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>Mouse</h2>
+                    </div>
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>Headphones</h2>
+                    </div>
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>Keyboard</h2>
+                    </div>
                 </article>
                 <article class="container2">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>Microphone</h2>
+                    </div>
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>Mousepad</h2>
+                    </div>
+                    <div class="parts-category">
+                        <img src="images/grey.jpg" alt="placeholder">
+                        <h2>Monitor</h2>
+                    </div>
                 </article>
-                <article class="container2">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                    <img class="parts-category" src="images/grey.jpg" alt="placeholder">
-                </article>
+
             </div>
 
 
