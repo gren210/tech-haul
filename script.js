@@ -48,10 +48,9 @@ function signup(){
         var password = document.getElementById('password-signup').value;
 
         // Make API request for sign-up
-        const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
         const apiUrl = 'https://iptechhaul-162e.restdb.io/rest/account';
 
-        fetch(corsProxyUrl + apiUrl, {
+        fetch(apiUrl, {
             method: 'POST',
             headers: {
                 'x-apikey': apiKey,
