@@ -11,6 +11,8 @@ Roles:
 Thaqif - Back End Developer (Javascript, API, 50% CSS)
 Ethan - Fron End Developer (HTML, 50% CSS)
 
+GitHub Link: https://github.com/gren210/tech-haul
+
 Credits:
 https://www.google.com/url?q=https://www.ebay.com/itm/296200969231%3Fchn%3Dps%26mkevt%3D1%26mkcid%3D28%26srsltid%3DAfmBOoojOQezSdOKsqMiaeGe6josT67utbe8Np81njRE1-sgwMwM7k54g9I&opi=95576897&sa=U&ved=0ahUKEwi3zriezJ2EAxW7zTgGHfpVDyAQsDwIHQ&usg=AOvVaw1uOFQYmlenUXIzX9oTWc1L
 
