@@ -605,6 +605,57 @@
     font-size:30px;
 }
 
+.login-page{
+    padding-top:250px;
+    padding-left:40%;
+    padding-right:40%;
+    background-color: #fff1e0;
+
+}
+
+.container-login{
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding-top:60px;
+    padding-bottom:60px;
+    flex-flow:row;
+    background-color: white;
+    border-radius:5px;
+}
+
+#login-form{
+    display:flex;
+    padding:5%;
+    position:relative;
+    width:100%;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+    flex-grow:1;
+    flex-basis:43%;
+    flex-direction:column;
+    flex-flow:column;
+}
+
+#signup-form{
+    display:flex;
+    padding:5%;
+    position:relative;
+    width:100%;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+    flex-grow:1;
+    flex-basis:43%;
+    flex-direction:column;
+    flex-flow:column;
+}
+
+
+
+
 
 @media screen and (max-width:920px) {
     .menu a {
